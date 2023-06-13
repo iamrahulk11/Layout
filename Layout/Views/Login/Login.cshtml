@@ -1,0 +1,85 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <title>Login</title>
+    <style>
+
+       
+
+      
+    </style>
+</head>
+<body>
+
+    <div class="bg-img">          
+            <div id="mid">                               
+                <div class="container-fluid">
+                    <div class="row">
+                        <div><h2 class="text-center">LOGIN</h2></div>
+                        <hr />
+                        <div class="col-lg-6 img-wrapper">
+                            <div class="image">
+                                <img width="400" height="300" src="https://img.freepik.com/free-vector/cloud-storage-idea-online-computing-internet-database-backup-server-programming-equipment-limited-access-control-pass-privacy-settings-vector-isolated-concept-metaphor-illustration_335657-4337.jpg?w=740&amp;t=st=1686641082~exp=1686641682~hmac=630ec29084c3fcec90f9fec36b669d91548d329b2631d95bdf1eff3dd717bb0e" />
+                            </div>
+                            
+                        </div>
+                        <div id="checkboxId" class="col-lg-6">
+                            <div id="text">
+                                <br />
+                                <div class="form-group" id="space">
+                                    <label for="Position" class="col-md-4 control-label" style="padding:5px;">USERNAME</label>
+                                    <div class="col-md-8">
+                                        <input type="text" autocomplete="off" class="form-control" id="EditCompanyName" name="CompanyName" placeholder="Your Company Name">
+                                    </div>
+                                </div>
+                 
+
+                                <div class="form-group" id="space">
+                                    <label for="ContactPerson" class="col-md-4 control-label"style="padding:5px;">PASSWORD</label>
+                                    <div class="col-md-8">
+                                        <input type="password" autocomplete="off" class="form-control" id="EditContactPerson" name="ContactPerson" placeholder="Contact Person Name">
+                                    </div>
+                                </div>
+                   
+
+                                <div class="form-group" id="space">
+                                    <label for="Position" class="col-md-4 control-label"style="padding:5px;">CENTER</label>
+                                    <div class="col-md-8">
+                                        <select id="EditddlGroup" name="ddlGroup" class="form-control">
+                                            <option value="">Select GroupName</option>
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                       
+
+                                <div class="form-group" id="space">
+
+                                    <div class="col-md-8" style="align-items:end;display:flex;justify-content: end;">
+                                        <button class="btn btn-success" id="Submit" type="submit" onclick="onsubmit()">Login</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+ 
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
